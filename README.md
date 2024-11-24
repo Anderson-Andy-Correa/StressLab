@@ -43,9 +43,9 @@ Repositório de documentação do projeto StressLab, trabalho final do semestre 
 <style>
     .table {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: flex-start; /* Alinha ao topo verticalmente */
-    gap: 20px; /* Espaço entre os itens */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; 
 }
 .item_table {
     text-align: center;
@@ -53,10 +53,10 @@ Repositório de documentação do projeto StressLab, trabalho final do semestre 
     height: 150px;
 }
 .circle-img {
-    width: 100%; /* Ajusta para sempre ocupar 100% da largura disponível */
-    max-width: 115px; /* Limita a largura máxima */
-    height: auto; /* Mantém a proporção da imagem */
-    aspect-ratio: 1 / 1; /* Garante a proporção 1:1 */
+    width: 100%; 
+    max-width: 115px; 
+    height: auto; 
+    aspect-ratio: 1 / 1; 
     border-radius: 50%;
     object-fit: cover;
     display: block;
