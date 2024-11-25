@@ -1,0 +1,22 @@
+2024-11-13 14:03:08,157 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-11-13 14:03:08,173 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-11-13 14:03:08,174 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-11-13 14:03:08,179 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-11-13 14:03:08,179 INFO o.a.j.JMeter: Version 5.6.3
+2024-11-13 14:03:08,179 INFO o.a.j.JMeter: java.version=21.0.1
+2024-11-13 14:03:08,179 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-11-13 14:03:08,179 INFO o.a.j.JMeter: os.name=Windows 10
+2024-11-13 14:03:08,180 INFO o.a.j.JMeter: os.arch=amd64
+2024-11-13 14:03:08,180 INFO o.a.j.JMeter: os.version=10.0
+2024-11-13 14:03:08,180 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-11-13 14:03:08,180 INFO o.a.j.JMeter: java.awt.headless=null
+2024-11-13 14:03:08,180 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-11-13 14:03:08,180 INFO o.a.j.JMeter: Available Processors =20
+2024-11-13 14:03:08,187 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-11-13 14:03:08,187 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-11-13 14:03:08,187 INFO o.a.j.JMeter: JMeterHome=C:\Users\Anderson Correia\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2024-11-13 14:03:08,187 INFO o.a.j.JMeter: user.dir  =C:\Users\Anderson Correia\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-11-13 14:03:08,187 INFO o.a.j.JMeter: PWD       =C:\Users\Anderson Correia\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-11-13 14:03:08,189 INFO o.a.j.JMeter: IP: 192.168.0.203 Name: PC-033 FullName: 192.168.0.203
+2024-11-13 14:03:08,196 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-11-13 14:03:08,330 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
