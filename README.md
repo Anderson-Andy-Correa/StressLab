@@ -40,59 +40,40 @@ Repositório de documentação do projeto StressLab, trabalho final do semestre 
 
 # 👨‍💻 Time
 
-<style>
-    .table {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px; 
-}
-.item_table {
-    text-align: center;
-    width: 115px;
-    height: 150px;
-}
-.circle-img {
-    width: 100%; 
-    max-width: 115px; 
-    height: auto; 
-    aspect-ratio: 1 / 1; 
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: auto;
-}
-</style>
-
-<table class=table>
+<table style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
     <tr>
-        <td class=item_table>
+        <td style="text-align: center; width: 115px; height: 150px;">
             <a href="https://github.com/Sttarnix">
-                <img src="https://avatars.githubusercontent.com/u/126365457?v=4" class=circle-img>
+                <img src="https://avatars.githubusercontent.com/u/126365457?v=4" 
+                     style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
                 <sub>Aiara Dorneles Claudio</sub>
             </a>
         </td>
-        <td class=item_table>
+        <td style="text-align: center; width: 115px; height: 150px;">
             <a href="https://github.com/Anderson-Andy-Correa">
-                <img src="https://avatars.githubusercontent.com/u/106445568?v=4" class="circle-img">
+                <img src="https://avatars.githubusercontent.com/u/106445568?v=4" 
+                     style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
                 <sub>Anderson Corrêa</sub>
             </a>
         </td>
-        <td class=item_table>
+        <td style="text-align: center; width: 115px; height: 150px;">
             <a href="https://github.com/AndreLoppnow">
-                <img src="https://avatars.githubusercontent.com/u/129698712?v=4" class=circle-img>
+                <img src="https://avatars.githubusercontent.com/u/129698712?v=4" 
+                     style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
                 <sub>André Felippe Loppnow</sub>
             </a>
         </td>
-        <td class=item_table>
+        <td style="text-align: center; width: 115px; height: 150px;">
             <a href="https://github.com/gabrielpoleza">
-                <img src="https://avatars.githubusercontent.com/u/128434647?v=4" class=circle-img>
+                <img src="https://avatars.githubusercontent.com/u/128434647?v=4" 
+                     style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
                 <sub>Gabriel Faustino Poleza</sub>
             </a>
         </td>
-        <td class=item_table>
+        <td style="text-align: center; width: 115px; height: 150px;">
             <a href="https://github.com/2005LucasLongo">
-                <img src="https://avatars.githubusercontent.com/u/107898034?v=4" class=circle-img>
+                <img src="https://avatars.githubusercontent.com/u/107898034?v=4" 
+                     style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
                 <sub>Lucas Longo</sub>
             </a>
         </td>
@@ -103,11 +84,11 @@ Repositório de documentação do projeto StressLab, trabalho final do semestre 
 
 # 👨‍🎓 Professor / Orientador
 
-<table class=table>
+<table style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
     <tr>
-        <td class=item_table>
+        <td style="text-align: center; width: 115px; height: 150px;">
             <a href="https://github.com/RandMelville">
-                <img src="https://avatars.githubusercontent.com/u/16937328?v=4" class=circle-img>
+                <img src="https://avatars.githubusercontent.com/u/16937328?v=4" style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
                 <sub>Randerson Melville</sub>
             </a>
         </td>
