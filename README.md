@@ -40,40 +40,35 @@ Repositório de documentação do projeto StressLab, trabalho final do semestre 
 
 # 👨‍💻 Time
 
-<table style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+<table>
     <tr>
-        <td style="text-align: center; width: 115px; height: 150px;">
+        <td align=center>
             <a href="https://github.com/Sttarnix">
-                <img src="https://avatars.githubusercontent.com/u/126365457?v=4" 
-                     style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
+                <img src="https://avatars.githubusercontent.com/u/126365457?v=4" width=115px><br>
                 <sub>Aiara Dorneles Claudio</sub>
             </a>
         </td>
-        <td style="text-align: center; width: 115px; height: 150px;">
+        <td align=center>
             <a href="https://github.com/Anderson-Andy-Correa">
-                <img src="https://avatars.githubusercontent.com/u/106445568?v=4" 
-                     style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
+                <img src="https://avatars.githubusercontent.com/u/106445568?v=4" width=115px><br>
                 <sub>Anderson Corrêa</sub>
             </a>
         </td>
-        <td style="text-align: center; width: 115px; height: 150px;">
+        <td align=center>
             <a href="https://github.com/AndreLoppnow">
-                <img src="https://avatars.githubusercontent.com/u/129698712?v=4" 
-                     style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
+                <img src="https://avatars.githubusercontent.com/u/129698712?v=4" width=115px><br>
                 <sub>André Felippe Loppnow</sub>
             </a>
         </td>
-        <td style="text-align: center; width: 115px; height: 150px;">
+        <td align=center>
             <a href="https://github.com/gabrielpoleza">
-                <img src="https://avatars.githubusercontent.com/u/128434647?v=4" 
-                     style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
+                <img src="https://avatars.githubusercontent.com/u/128434647?v=4" width=115px><br>
                 <sub>Gabriel Faustino Poleza</sub>
             </a>
         </td>
-        <td style="text-align: center; width: 115px; height: 150px;">
+        <td align=center>
             <a href="https://github.com/2005LucasLongo">
-                <img src="https://avatars.githubusercontent.com/u/107898034?v=4" 
-                     style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
+                <img src="https://avatars.githubusercontent.com/u/107898034?v=4" width=115px><br>
                 <sub>Lucas Longo</sub>
             </a>
         </td>
@@ -84,11 +79,11 @@ Repositório de documentação do projeto StressLab, trabalho final do semestre 
 
 # 👨‍🎓 Professor / Orientador
 
-<table style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+<table>
     <tr>
-        <td style="text-align: center; width: 115px; height: 150px;">
+        <td align=center>
             <a href="https://github.com/RandMelville">
-                <img src="https://avatars.githubusercontent.com/u/16937328?v=4" style="width: 100%; max-width: 115px; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
+                <img src="https://avatars.githubusercontent.com/u/16937328?v=4" width=115px><br>
                 <sub>Randerson Melville</sub>
             </a>
         </td>
