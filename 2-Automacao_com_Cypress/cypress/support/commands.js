@@ -16,3 +16,10 @@ Cypress.Commands.add('pegarPrimeiroProduto', () => {
    cy.get('a[href^="prod.html?idp"]').first().click();
    cy.get('a[onclick^="addToCart"]').first().click();
 });
+
+Cypress.Commands.add('preencheDadosConta', (formpath, usuario, senha)=>{
+    cy.get(formpath).then((form)=>{
+        cy.wrap(form).find('input[id*="username"]').type(usuario, { force: true, delay: 100});
+        cy.wrap(form).find('input[id*="password"]').type(senha, { delay: 500 });    
+    })
+})

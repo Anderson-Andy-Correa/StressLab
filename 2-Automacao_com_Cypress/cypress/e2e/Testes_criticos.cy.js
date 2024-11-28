@@ -3,6 +3,7 @@ import { faker } from '@faker-js/faker';
 describe('Testes Criticos DemoBlaze', () => {
   const URL = 'https://www.demoblaze.com'
   const randomUsername = faker.internet.email(); // Gera um email aleatório
+  const senha = 'teste123';
   
   beforeEach(() => {
     cy.intercept('GET', '/').as('paginaInicial');
@@ -19,14 +20,20 @@ describe('Testes Criticos DemoBlaze', () => {
 
     // Fluxo do teste
     cy.get('a[id="signin2"]').click();
-    cy.get('input[id="sign-username"]').type(randomUsername, { force: true, delay: 100});
-    cy.get('input[id="sign-password"]').type('teste123', { delay: 500 });
+    cy.preencheDadosConta('#signInModal > div > div > div.modal-body > form', randomUsername, senha);
     cy.get('button[onclick="register()"]').click();
 
     // Validar o alerta
     cy.on('window:alert', (alertText) => {
       expect(alertText).to.contains('Sign up sucessful.');
     });
+  })
+
+  it('Login no site', () => {
+    cy.get('#login2').click();
+    cy.preencheDadosConta('#logInModal > div > div > div.modal-body > form', randomUsername, senha);
+    cy.get('#logInModal > div > div > div.modal-footer > button.btn.btn-primary').click();
+    cy.get('#nameofuser', {timeout: 10000}).should('contains.text', `Welcome ${randomUsername}`);
   })
 
   it('Produto no carrinho', () => { 
