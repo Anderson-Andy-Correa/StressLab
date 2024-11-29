@@ -17,6 +17,7 @@ describe('Testes Criticos DemoBlaze', () => {
   })
 
   it('Registrar no site', () => { 
+    cy.intercept('POST', '/signup').as('cadastroRequest');
 
     // Fluxo do teste
     cy.get('a[id="signin2"]').click();
@@ -25,15 +26,17 @@ describe('Testes Criticos DemoBlaze', () => {
 
     // Validar o alerta
     cy.on('window:alert', (alertText) => {
-      expect(alertText).to.contains('Sign up sucessful.');
+      expect(alertText).to.contains('Sign up successful.');
     });
+
+    cy.wait('@cadastroRequest');
   })
 
   it('Login no site', () => {
     cy.get('#login2').click();
     cy.preencheDadosConta('#logInModal > div > div > div.modal-body > form', randomUsername, senha);
     cy.get('#logInModal > div > div > div.modal-footer > button.btn.btn-primary').click();
-    cy.get('#nameofuser', {timeout: 10000}).should('contains.text', `Welcome ${randomUsername}`);
+    cy.get('#nameofuser').should('contains.text', `Welcome ${randomUsername}`);
   })
 
   it('Produto no carrinho', () => { 
