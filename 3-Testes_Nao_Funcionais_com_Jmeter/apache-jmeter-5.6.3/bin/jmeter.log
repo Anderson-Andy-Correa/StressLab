@@ -1,40 +1,40 @@
-2024-11-26 19:52:44,212 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2024-11-26 19:52:44,227 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2024-11-26 19:52:44,227 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2024-11-26 19:52:44,243 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2024-11-26 19:52:44,243 INFO o.a.j.JMeter: Version 5.6.3
-2024-11-26 19:52:44,243 INFO o.a.j.JMeter: java.version=20
-2024-11-26 19:52:44,243 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2024-11-26 19:52:44,243 INFO o.a.j.JMeter: os.name=Windows 11
-2024-11-26 19:52:44,243 INFO o.a.j.JMeter: os.arch=amd64
-2024-11-26 19:52:44,243 INFO o.a.j.JMeter: os.version=10.0
-2024-11-26 19:52:44,243 INFO o.a.j.JMeter: file.encoding=UTF-8
-2024-11-26 19:52:44,243 INFO o.a.j.JMeter: java.awt.headless=null
-2024-11-26 19:52:44,243 INFO o.a.j.JMeter: Max memory     =1073741824
-2024-11-26 19:52:44,243 INFO o.a.j.JMeter: Available Processors =4
-2024-11-26 19:52:44,259 INFO o.a.j.JMeter: Default Locale=English (EN)
-2024-11-26 19:52:44,259 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2024-11-26 19:52:44,259 INFO o.a.j.JMeter: JMeterHome=C:\Users\andre\OneDrive\Área de Trabalho\Programação em C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\apache-jmeter-5.6.3
-2024-11-26 19:52:44,259 INFO o.a.j.JMeter: user.dir  =C:\Users\andre\OneDrive\Área de Trabalho\Programação em C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\apache-jmeter-5.6.3\bin
-2024-11-26 19:52:44,259 INFO o.a.j.JMeter: PWD       =C:\Users\andre\OneDrive\Área de Trabalho\Programação em C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\apache-jmeter-5.6.3\bin
-2024-11-26 19:52:44,259 INFO o.a.j.JMeter: IP: 192.168.56.1 Name: DESKTOP-KT62PRT FullName: DESKTOP-KT62PRT
-2024-11-26 19:52:44,274 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2024-11-26 19:52:44,545 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2024-11-26 19:52:51,874 INFO o.a.j.s.FileServer: Default base='C:\Users\andre\OneDrive\Área de Trabalho\Programação em C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\apache-jmeter-5.6.3\bin'
-2024-11-26 19:52:51,874 INFO o.a.j.g.a.Load: Loading file: C:\Users\andre\OneDrive\Área de Trabalho\Programação em C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\Teste Damoblaze.jmx
-2024-11-26 19:52:51,874 INFO o.a.j.s.FileServer: Set new base='C:\Users\andre\OneDrive\Área de Trabalho\Programação em C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter'
-2024-11-26 19:52:52,140 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2024-11-26 19:52:52,171 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2024-11-26 19:52:52,171 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2024-11-26 19:52:52,171 INFO o.a.j.s.SaveService: Loading file: C:\Users\andre\OneDrive\Área de Trabalho\Programação em C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\Teste Damoblaze.jmx
-2024-11-26 19:52:52,202 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-11-26 19:52:52,202 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-11-26 19:52:52,202 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-11-26 19:52:52,202 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-11-26 19:52:52,202 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2024-11-26 19:52:52,202 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2024-11-26 19:52:52,437 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2024-11-26 19:52:52,437 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2024-11-26 19:52:52,437 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2024-11-26 19:52:52,437 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2024-11-26 19:52:53,039 INFO o.a.j.s.FileServer: Set new base='C:\Users\andre\OneDrive\Área de Trabalho\Programação em C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter'
+2024-12-01 15:30:45,518 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-12-01 15:30:45,544 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-12-01 15:30:45,546 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-12-01 15:30:45,557 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-12-01 15:30:45,557 INFO o.a.j.JMeter: Version 5.6.3
+2024-12-01 15:30:45,558 INFO o.a.j.JMeter: java.version=1.8.0_401
+2024-12-01 15:30:45,558 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-12-01 15:30:45,558 INFO o.a.j.JMeter: os.name=Windows 11
+2024-12-01 15:30:45,558 INFO o.a.j.JMeter: os.arch=amd64
+2024-12-01 15:30:45,558 INFO o.a.j.JMeter: os.version=10.0
+2024-12-01 15:30:45,558 INFO o.a.j.JMeter: file.encoding=Cp1252
+2024-12-01 15:30:45,558 INFO o.a.j.JMeter: java.awt.headless=null
+2024-12-01 15:30:45,558 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-12-01 15:30:45,558 INFO o.a.j.JMeter: Available Processors =4
+2024-12-01 15:30:45,566 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-12-01 15:30:45,566 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-12-01 15:30:45,567 INFO o.a.j.JMeter: JMeterHome=C:\Users\andre\Desktop\Projetos C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\apache-jmeter-5.6.3
+2024-12-01 15:30:45,567 INFO o.a.j.JMeter: user.dir  =C:\Users\andre\Desktop\Projetos C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\apache-jmeter-5.6.3\bin
+2024-12-01 15:30:45,567 INFO o.a.j.JMeter: PWD       =C:\Users\andre\Desktop\Projetos C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\apache-jmeter-5.6.3\bin
+2024-12-01 15:30:50,588 INFO o.a.j.JMeter: IP: 26.52.21.71 Name: andre FullName: andre
+2024-12-01 15:30:50,620 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-12-01 15:30:51,042 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-12-01 15:31:06,281 INFO o.a.j.s.FileServer: Default base='C:\Users\andre\Desktop\Projetos C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\apache-jmeter-5.6.3\bin'
+2024-12-01 15:31:06,284 INFO o.a.j.g.a.Load: Loading file: C:\Users\andre\Desktop\Projetos C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\Teste Damoblaze.jmx
+2024-12-01 15:31:06,284 INFO o.a.j.s.FileServer: Set new base='C:\Users\andre\Desktop\Projetos C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter'
+2024-12-01 15:31:06,517 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-12-01 15:31:06,577 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-12-01 15:31:06,579 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-12-01 15:31:06,585 INFO o.a.j.s.SaveService: Loading file: C:\Users\andre\Desktop\Projetos C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter\Teste Damoblaze.jmx
+2024-12-01 15:31:06,630 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-01 15:31:06,630 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-01 15:31:06,630 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-01 15:31:06,631 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-01 15:31:06,631 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-12-01 15:31:06,631 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-12-01 15:31:06,937 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-12-01 15:31:06,937 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-12-01 15:31:06,937 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-12-01 15:31:06,938 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-12-01 15:31:07,680 INFO o.a.j.s.FileServer: Set new base='C:\Users\andre\Desktop\Projetos C#\StressLab\3-Testes_Nao_Funcionais_com_Jmeter'
