@@ -1,3 +1,4 @@
 
 /3-Testes_Nao_Funcionais_com_Jmeter/apache-jmeter-5.6.3/backups
 *.hprof
+*.log
