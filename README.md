@@ -1,10 +1,18 @@
+# ![img Tutulo](https://capsule-render.vercel.app/api?type=waving&height=300&color=0:00FFB0,100:a82da8&text=STRESS%20LAB&textBg=false&fontColor=FFFFFF&fontSize=50&animation=twinkling&stroke=0000FF)
 
-![img Tutulo](https://capsule-render.vercel.app/api?type=waving&height=300&color=0:00FFB0,100:a82da8&text=STRESS%20LAB&textBg=false&fontColor=FFFFFF&fontSize=50&animation=twinkling&stroke=0000FF)
+<br>
 
-## 🔍 Sobre
+# 🔍 Sobre
+
 Repositório de documentação do projeto StressLab, trabalho final do semestre (A3) da disciplina de Gestão e Qualidade de Software da Unisociesc 2024/02.
 
-## 🚀 Tecnologias
+A ideia do projeto foi simular um ciclo completo de testes de software, abrangendo desde o planejamento até a analise e conclusão dos testes. 
+
+<br>
+
+---
+
+# 🚀 Tecnologias
 
 
 <div align="center" text-align="center">
@@ -32,9 +40,30 @@ Repositório de documentação do projeto StressLab, trabalho final do semestre 
   </table>
 </div>
 
-## 📘 Documentação
+<br>
 
-*Em Construção*
+---
+
+# ❗Pré requisitos
+
+É de extrema importância que já tenhas instalado as seguintes ferramentas no seu computador:
+
+1. [Node.js](https://nodejs.org/pt): Versão 16 ou superior.
+2. [Java](https://www.java.com/pt-BR/): Versão 8 ou superior (necessário para executar o JMeter).
+3. Ferramentas Instaladas:
+   - [Cypress](https://www.cypress.io/)
+   - [JMeter](https://jmeter.apache.org)
+4. Navegador: [Chrome](https://www.google.pt/intl/pt-PT/chrome/), [Edge](https://www.microsoft.com/pt-br/edge/download) (ou outro compatível com o Cypress).
+
+<br>
+
+---
+
+# 📘 Documentação
+
+
+
+<br>
 
 ---
 
@@ -74,6 +103,8 @@ Repositório de documentação do projeto StressLab, trabalho final do semestre 
         </td>
     </tr>
 </table>
+
+<br>
 
 ---
 
