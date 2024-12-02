@@ -35,8 +35,8 @@ describe('Testes Criticos DemoBlaze', () => {
   it('Login no site', () => {
     cy.get('#login2').click();
     cy.preencheDadosConta('#logInModal > div > div > div.modal-body > form', randomUsername, senha);
-    cy.get('#logInModal > div > div > div.modal-footer > button.btn.btn-primary').click();
-    cy.get('#nameofuser').should('contains.text', `Welcome ${randomUsername}`);
+    cy.get('button[onclick="logIn()"]').click();
+    cy.get('a[id="nameofuser"]', {timeout: 10000}).should('contains.text', `Welcome ${randomUsername}`);
   })
 
   it('Produto no carrinho', () => { 
