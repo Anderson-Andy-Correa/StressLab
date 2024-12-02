@@ -46,7 +46,7 @@ A ideia do projeto foi simular um ciclo completo de testes de software, abrangen
 
 # ❗Pré requisitos
 
-É de extrema importância que já tenhas instalado as seguintes ferramentas no seu computador:
+É de extrema importância que já tenhas instalado as seguintes ferramentas no seu ambiente de trabalho, para o projeto funcionar normalmente:
 
 1. [Node.js](https://nodejs.org/pt): Versão 16 ou superior.
 2. [Java](https://www.java.com/pt-BR/): Versão 8 ou superior (necessário para executar o JMeter).
@@ -59,9 +59,71 @@ A ideia do projeto foi simular um ciclo completo de testes de software, abrangen
 
 ---
 
+# 📘 Do by yourself
+
+1. Cypress
+
+    1. Para rodar os testes, use o terminal e navegue pela pasta [StressLab
+/2-Automacao_com_Cypress](./2-Automacao_com_Cypress). Podes usar o seguinte comando para isso:
+
+    ~~~bash
+    cd .\2-Automacao_com_Cypress\
+    ~~~
+
+    2. Então execute o seguinte comando:
+
+    ~~~bash
+    npx cypress open
+    ~~~
+
+    3. Deve abrir a página inicial do Cypress, então selecione a opção E2E Testing,conforme a imagem abaixo.
+
+    ![img Tela Inicial Cypress](./Apresentacao/2-Abertura_cypress.png)
+
+    4. Escolha o navegador de sua preferência e clique no botão marcado.
+
+    ![img Start Testing](./Apresentacao/3-Selecao_Navegador.png)
+
+    5. A página principal do projeto deve abrir e já aparecer a Spec parte01.cy.js, clique nele e deve começar a mostrar os testes em execução.
+
+    ![img Specs](./Apresentacao/4-Pagina_principa_cypress.png)
+
+    ![img Rodando testes](./Apresentacao/5-Rodando_testes.png)
+
+2. Jmeter
+
+    1. Para rodar os testes, navegue pela seguinte pasta do projeto:
+
+        [StressLab/3-Testes_Nao_Funcionais_com_Jmeter/apache-jmeter-5.6.3/bin](./3-Testes_Nao_Funcionais_com_Jmeter/apache-jmeter-5.6.3/bin)
+    
+    2. Nessa mesma pasta, execute o inicializador do Jmeter  [ApacheJMeter.jar](./3-Testes_Nao_Funcionais_com_Jmeter/apache-jmeter-5.6.3/bin/ApacheJMeter.jar). 
+
+    3. Deve carregar o iniciador do programa dessa forma:
+
+        ![img Demonstração do iniciador do Jmeter](placeholder.png)
+    
+
+    4. A página inicial deve aparecer em poucos segundos, após isso, na aba arquivo (file), selecione a opção abrir (open)
+
+        ![img Abrir arquivo no Jmeter](placeholder.png)
+    
+    5. Navegue pela seguinte pasta do projeto:
+
+        [StressLab/3-Testes_Nao_Funcionais_com_Jmeter](./3-Testes_Nao_Funcionais_com_Jmeter)
+
+
+    6. Selecione o arquivo do projeto do Jmeter [Teste Damoblaze.jmx](./3-Testes_Nao_Funcionais_com_Jmeter/Teste%20Damoblaze.jmx)
+
+        ![img parta do arquivo no Jmeter](placeholder.png)
+    
+
+    
+
+<br>
+
+---
+
 # 📘 Documentação
-
-
 
 <br>
 
