@@ -70,13 +70,13 @@ A ideia do projeto foi simular um ciclo completo de testes de software, abrangen
     cd .\2-Automacao_com_Cypress\
     ~~~
 
-    2. Então execute o seguinte comando:
+    2. Então, execute o seguinte comando:
 
     ~~~bash
     npx cypress open
     ~~~
 
-    3. Deve abrir a página inicial do Cypress, então selecione a opção E2E Testing,conforme a imagem abaixo.
+    3. Deve abrir a página inicial do Cypress, então selecione a opção E2E Testing, conforme a imagem abaixo.
 
     ![img Tela Inicial Cypress](./Apresentacao/2-Abertura_cypress.png)
 
@@ -84,7 +84,7 @@ A ideia do projeto foi simular um ciclo completo de testes de software, abrangen
 
     ![img Start Testing](./Apresentacao/3-Selecao_Navegador.png)
 
-    5. A página principal do projeto deve abrir e já aparecer a Spec parte01.cy.js, clique nele e deve começar a mostrar os testes em execução.
+    5. A página principal do projeto deve abrir e já aparecer a Spec Testes_criticos.cy.js, clique nele e deve começar a mostrar os testes em execução.
 
     ![img Specs](./Apresentacao/4-Pagina_principa_cypress.png)
 
@@ -115,9 +115,6 @@ A ideia do projeto foi simular um ciclo completo de testes de software, abrangen
     6. Selecione o arquivo do projeto do Jmeter [Teste Damoblaze.jmx](./3-Testes_Nao_Funcionais_com_Jmeter/Teste%20Damoblaze.jmx)
 
         ![img parta do arquivo no Jmeter](placeholder.png)
-    
-
-    
 
 <br>
 
@@ -125,11 +122,15 @@ A ideia do projeto foi simular um ciclo completo de testes de software, abrangen
 
 # 📘 Documentação
 
+Para mais informações do projeto (desafio proposto, resolução, análise dos cenários, ideias de modificação, entre outros fatores) verifique o [relatório](./5-Documentacao_e_Relatorio_final/A3%20-%20Gestão%20e%20qualidade%20de%20software.pdf) oficial do projeto.
+
+Caso tenha alguma sugestão, correção ou sugestão de melhorias, por favor entre em contato. 😊
+
 <br>
 
 ---
 
-# 👨‍💻 Time
+# 👨‍💻 Colaboradores
 
 <table>
     <tr>
