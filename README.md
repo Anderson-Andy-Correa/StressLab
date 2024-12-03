@@ -76,45 +76,61 @@ A ideia do projeto foi simular um ciclo completo de testes de software, abrangen
     npx cypress open
     ~~~
 
-    3. Deve abrir a página inicial do Cypress, então selecione a opção E2E Testing, conforme a imagem abaixo.
+    ![img Abrindo Cypress pelo terminal](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.1.1-Cypress-Comando_Terminal.png)
 
-    ![img Tela Inicial Cypress](./Apresentacao/2-Abertura_cypress.png)
+    3. Deve abrir a página inicial do Cypress, então selecione a opção E2E Testing,conforme a imagem abaixo.
 
-    4. Escolha o navegador de sua preferência e clique no botão marcado.
+    ![img Tela Inicial Cypress](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.1.2-Cypress-Tela_Inicial.png)
 
-    ![img Start Testing](./Apresentacao/3-Selecao_Navegador.png)
+    4. Escolha o navegador de sua preferência e clique no botão marcado. (Recomendo usar o Chrome)
 
-    5. A página principal do projeto deve abrir e já aparecer a Spec Testes_criticos.cy.js, clique nele e deve começar a mostrar os testes em execução.
+    ![img Start Testing](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.1.3-Cypress-Selecao_navegador.png)
 
-    ![img Specs](./Apresentacao/4-Pagina_principa_cypress.png)
+    5. A página principal do projeto deve abrir e já aparecer algumas Specs. A principal é a Testes_críticos.cy.js, clique nele e deve começar a mostrar os testes em execução.
 
-    ![img Rodando testes](./Apresentacao/5-Rodando_testes.png)
+    ![img Specs](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.1.4-Cypress-Selecao_Spec.png)
+
+    ![img Rodando testes](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.1.5-Cypress-Rodando_Testes.png)
+
+<br></br>
 
 2. Jmeter
 
     1. Para rodar os testes, navegue pela seguinte pasta do projeto:
 
-        [StressLab/3-Testes_Nao_Funcionais_com_Jmeter/apache-jmeter-5.6.3/bin](./3-Testes_Nao_Funcionais_com_Jmeter/apache-jmeter-5.6.3/bin)
-    
-    2. Nessa mesma pasta, execute o inicializador do Jmeter  [ApacheJMeter.jar](./3-Testes_Nao_Funcionais_com_Jmeter/apache-jmeter-5.6.3/bin/ApacheJMeter.jar). 
+    [StressLab/3-Testes_Nao_Funcionais_com_Jmeter/apache-jmeter-5.6.3/bin](./3-Testes_Nao_Funcionais_com_Jmeter/apache-jmeter-5.6.3/bin).
+
+    2. Nessa mesma pasta, execute o inicializador do Jmeter [ApacheJMeter.jar](./3-Testes_Nao_Funcionais_com_Jmeter/apache-jmeter-5.6.3/bin/ApacheJMeter.jar). 
+
+    ![img Pasta do projeto do Jmeter](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.2.1-Jmeter-Abrir_Iniciador.png)
 
     3. Deve carregar o iniciador do programa dessa forma:
 
-        ![img Demonstração do iniciador do Jmeter](placeholder.png)
-    
+    ![img Demonstração do iniciador do Jmeter](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.2.2-Jmeter-Carregando_Iniciador.png)
 
-    4. A página inicial deve aparecer em poucos segundos, após isso, na aba arquivo (file), selecione a opção abrir (open)
+    4. A página inicial deve aparecer em poucos segundos, após isso, na aba arquivo (file), selecione a opção abrir (open).
 
-        ![img Abrir arquivo no Jmeter](placeholder.png)
+    ![img Abrir arquivo no Jmeter](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.2.3-Jmeter-Abrir_Arquivo.png)
     
     5. Navegue pela seguinte pasta do projeto:
 
-        [StressLab/3-Testes_Nao_Funcionais_com_Jmeter](./3-Testes_Nao_Funcionais_com_Jmeter)
+    [StressLab/3-Testes_Nao_Funcionais_com_Jmeter](./3-Testes_Nao_Funcionais_com_Jmeter)
 
+    6. Selecione o arquivo do projeto do Jmeter [Teste Damoblaze.jmx](./3-Testes_Nao_Funcionais_com_Jmeter/Teste%20Damoblaze.jmx) e abra o arquivo.
 
-    6. Selecione o arquivo do projeto do Jmeter [Teste Damoblaze.jmx](./3-Testes_Nao_Funcionais_com_Jmeter/Teste%20Damoblaze.jmx)
+    ![img pasta do arquivo no Jmeter](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.2.4-Jmeter-Selecionando_Arquivo.png)
+    
+    7. Nesse projeto terá três testes disponíveis, conforme a figura abaixo, aconselho testar um de cada vez para ter resultados mais precisos.
 
-        ![img parta do arquivo no Jmeter](placeholder.png)
+    ![img Mostrando os testes disponíveis](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.2.5-Jmeter-Mostrando_Testes.png)
+
+    8. Para iniciar um tesnte, selecione um dos itens, aperte com o botão direito e selecione start.
+
+    ![img Escolhendo um dos testes e selecionando a função start](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.2.6-Jmeter-Iniciando_Teste.png)
+
+    9. Por fim, para visualizar os resultados, até mesmo durante o teste, abra a selação do teste em questão. Dentro vai ter um outro item de requisição, abra-o também que irá mostrar os tipos de visualizadores de teste. Recomendo escolher o Relatório Agregado, pois irá demosntrar mais informações nesse tipo de teste.
+
+    ![img Verificando resultados do teste pelo Relatório Agregado](./5-Documentacao_e_Relatorio_final/Imagens/Figura_0.2.7-Jmeter-Verificando_Resultados.png)
 
 <br>
 
